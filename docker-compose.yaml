@@ -5,5 +5,5 @@ services:
       dockerfile: Dockerfile
     container_name: blob-service-dev
     ports:
-      - "8000:8000"
+      - "8194:8194"
     restart: unless-stopped
