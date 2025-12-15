@@ -1,0 +1,9 @@
+services:
+  blob-service-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: blob-service-dev
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
